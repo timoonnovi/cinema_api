@@ -1,0 +1,147 @@
+************* Module auth
+cinema_api\auth.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\auth.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\auth.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\auth.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\auth.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\auth.py:48:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\auth.py:60:8: W0707: Consider explicitly re-raising using 'except JWTError as exc' and 'raise credentials_exception from exc' (raise-missing-from)
+************* Module crud
+cinema_api\crud.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\crud.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:71:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:84:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:131:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\crud.py:139:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module database
+cinema_api\database.py:72:0: C0304: Final newline missing (missing-final-newline)
+cinema_api\database.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\database.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\database.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module main
+cinema_api\main.py:58:31: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\main.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\main.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:32:21: W0612: Unused variable 'db' (unused-variable)
+cinema_api\main.py:48:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:57:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:72:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:80:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:97:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:107:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\main.py:3:0: C0411: standard import "datetime.timedelta" should be placed before third party imports "fastapi.FastAPI", "fastapi.security.OAuth2PasswordRequestForm" (wrong-import-order)
+cinema_api\main.py:11:0: C0411: standard import "typing.List" should be placed before third party imports "fastapi.FastAPI", "fastapi.security.OAuth2PasswordRequestForm", "database.get_db" (...) "auth", "auth.get_current_user", "algorithms.recommend.MovieRecommender" (wrong-import-order)
+************* Module schemas
+cinema_api\schemas.py:70:0: C0304: Final newline missing (missing-final-newline)
+cinema_api\schemas.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\schemas.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:17:4: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:17:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+cinema_api\schemas.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:27:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:30:4: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:30:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+cinema_api\schemas.py:33:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:36:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:42:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:45:4: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:45:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+cinema_api\schemas.py:48:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:53:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:56:4: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:56:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+cinema_api\schemas.py:59:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:63:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:66:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\schemas.py:2:0: C0411: standard import "typing.Optional" should be placed before third party import "pydantic.BaseModel" (wrong-import-order)
+cinema_api\schemas.py:3:0: C0411: standard import "datetime.datetime" should be placed before third party import "pydantic.BaseModel" (wrong-import-order)
+************* Module algorithms.recommend
+cinema_api\algorithms\recommend.py:56:63: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\algorithms\recommend.py:139:57: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\algorithms\recommend.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\algorithms\recommend.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+cinema_api\algorithms\recommend.py:28:4: R0914: Too many local variables (17/15) (too-many-locals)
+cinema_api\algorithms\recommend.py:77:4: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\algorithms\recommend.py:90:4: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\algorithms\recommend.py:115:4: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\algorithms\recommend.py:56:8: W0201: Attribute 'tf_matrix' defined outside __init__ (attribute-defined-outside-init)
+cinema_api\algorithms\recommend.py:4:0: C0411: standard import "collections.defaultdict" should be placed before third party imports "numpy", "scipy.sparse.csr_matrix", "scipy.spatial.distance.cosine" (wrong-import-order)
+cinema_api\algorithms\recommend.py:5:0: C0411: standard import "re" should be placed before third party imports "numpy", "scipy.sparse.csr_matrix", "scipy.spatial.distance.cosine" (wrong-import-order)
+cinema_api\algorithms\recommend.py:6:0: C0411: standard import "typing.List" should be placed before third party imports "numpy", "scipy.sparse.csr_matrix", "scipy.spatial.distance.cosine" (wrong-import-order)
+************* Module tests.test_auth
+cinema_api\tests\test_auth.py:32:0: C0301: Line too long (109/100) (line-too-long)
+cinema_api\tests\test_auth.py:65:0: C0304: Final newline missing (missing-final-newline)
+cinema_api\tests\test_auth.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\tests\test_auth.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_auth.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_auth.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_auth.py:27:27: W0621: Redefining name 'test_user' from outer scope (line 12) (redefined-outer-name)
+cinema_api\tests\test_auth.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_auth.py:46:28: W0621: Redefining name 'test_user' from outer scope (line 12) (redefined-outer-name)
+cinema_api\tests\test_auth.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_auth.py:51:38: W0621: Redefining name 'test_user' from outer scope (line 12) (redefined-outer-name)
+cinema_api\tests\test_auth.py:63:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module tests.test_crud
+cinema_api\tests\test_crud.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\tests\test_crud.py:58:0: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\tests\test_crud.py:80:0: C0304: Final newline missing (missing-final-newline)
+cinema_api\tests\test_crud.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\tests\test_crud.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_crud.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_crud.py:43:19: W0621: Redefining name 'sample_data' from outer scope (line 15) (redefined-outer-name)
+cinema_api\tests\test_crud.py:53:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_crud.py:53:20: W0621: Redefining name 'sample_data' from outer scope (line 15) (redefined-outer-name)
+cinema_api\tests\test_crud.py:63:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_crud.py:63:35: W0621: Redefining name 'sample_data' from outer scope (line 15) (redefined-outer-name)
+cinema_api\tests\test_crud.py:74:17: E1120: No value for argument 'rating_data' in function call (no-value-for-parameter)
+cinema_api\tests\test_crud.py:2:0: C0411: standard import "datetime.datetime" should be placed before third party import "pytest" (wrong-import-order)
+************* Module tests.test_main
+cinema_api\tests\test_main.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\tests\test_main.py:87:0: C0303: Trailing whitespace (trailing-whitespace)
+cinema_api\tests\test_main.py:92:0: C0304: Final newline missing (missing-final-newline)
+cinema_api\tests\test_main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cinema_api\tests\test_main.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:11:4: W0621: Redefining name 'test_db' from outer scope (line 9) (redefined-outer-name)
+cinema_api\tests\test_main.py:43:4: C0415: Import outside toplevel (os) (import-outside-toplevel)
+cinema_api\tests\test_main.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:62:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:76:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:81:0: C0116: Missing function or method docstring (missing-function-docstring)
+cinema_api\tests\test_main.py:3:0: C0411: standard import "sqlite3" should be placed before third party imports "fastapi.testclient.TestClient", "main.app" (wrong-import-order)
+cinema_api\tests\test_main.py:1:0: R0801: Similar lines in 2 files
+==database:[26:35]
+==tests.test_main:[25:34]
+        CREATE TABLE IF NOT EXISTS movies (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT NOT NULL,
+            description TEXT,
+            duration INTEGER,
+            genre TEXT,
+            rating REAL
+        );
+ (duplicate-code)
+cinema_api\tests\test_main.py:1:0: R0801: Similar lines in 2 files
+==database:[17:26]
+==tests.test_main:[13:22]
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE NOT NULL,
+            email TEXT UNIQUE NOT NULL,
+            hashed_password TEXT NOT NULL,
+            is_active BOOLEAN DEFAULT 1,
+            is_admin BOOLEAN DEFAULT 0
+        );
+ (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 6.17/10, +0.96)
+
